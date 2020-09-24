@@ -56,7 +56,7 @@ public class OrdezkatzeHiztegia {
     public String deszifratu(String kripto){
         //kriptograma hartuz hiztegian oinarritutako deszifraketa egingo du
         //Aurre: Kriptogramak alfebetoko 26 karaktereak bakarrik izango ditu (mayus edo minus)
-        //Post: Kriptograma lortu
+        //Post: Mezua lortu
 
         String kriptoOna;
         String mezua = "";
@@ -85,7 +85,9 @@ public class OrdezkatzeHiztegia {
     }
 
     public int posizioa(char letra, char[] gakoaA){
-
+        //array-a zeharkatu bilatzen dugun letra aurkitu arte
+        //Aurre: Array-ak eta letra alfebetoko 26 karaktereak bakarrik osatuko dituzte (mayus edo minus)
+        //Post: Arrayko posizioa lortu
         int i = 0;
         boolean aurkitua = false;
 
